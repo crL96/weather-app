@@ -2,7 +2,6 @@ async function getWeatherData(location) {
     try {
         const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=metric&key=HM5U6KZ9J6SDFWKQU9C4GDQLQ&contentType=json`, {mode: 'cors'})
         const object = await response.json();
-        console.log(object);
         const filteredData = filterAPIData(object);
         return filteredData;
     }
