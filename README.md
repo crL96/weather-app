@@ -1,5 +1,9 @@
-# webpack-template
+# Weather App
 
-Template repository
+Project within "The Odin Project" curriculum.
 
-Set up for use with webpack
+Weather forecast site using the Visual Crossing API.
+
+Live version:
+https://crl96.github.io/weather-app/
+
