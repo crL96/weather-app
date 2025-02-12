@@ -1,4 +1,4 @@
-import "./style.css"
+import "./style.css";
 import { getWeatherData } from "./weatherdata.js";
 import { renderCurrentWeather, renderTodaysWeather } from "./UI.js";
 
